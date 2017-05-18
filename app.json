@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/main/main",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3CB371",
+    "borderStyle": "white",
+    "backgroundColor": "balck",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath":"img/wifi1.png",
+        "selectedIconPath": "img/wifi2.png",
+        "text": "嘿嘿"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "img/wifi1.png",
+        "selectedIconPath": "img/wifi2.png",
+        "text": "哈哈"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "iconPath": "img/wifi1.png",
+        "selectedIconPath": "img/wifi2.png",
+        "text": "吼吼"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "img/wifi1.png",
+        "selectedIconPath": "img/wifi2.png",
+        "text": "嗯嗯"
+      }
+    ]
+  }
+}
