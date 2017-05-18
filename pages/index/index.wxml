@@ -1,10 +1,78 @@
 <!--index.wxml-->
-<view class="container">
-  <view  bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+<view class="page">
+    <view class="page__hd">
+
+      <view class="weui-search-bar" style="border:none;background-color:#97d54e">
+      
+            <view class="weui-search-bar__form" style="border-radius:20px;border:none;">
+                <view class="weui-search-bar__box">
+                    <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+                    <input type="text" class="weui-search-bar__input" placeholder="" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
+                    <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+                        <icon type="clear" size="14"></icon>
+                    </view>
+                </view>
+            </view>
+            <view class="weui-search-bar__cancel-btn" bindtap="hideInput">筛选</view>
+        </view>
+        <view class="weui-cells searchbar-result" wx:if="{{inputVal.length > 0}}">
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本</view>
+                </view>
+            </navigator>
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本</view>
+                </view>
+            </navigator>
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本</view>
+                </view>
+            </navigator>
+            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">
+                    <view>实时搜索文本</view>
+                </view>
+            </navigator>
+        </view>
+   
+ 
+</view>
+  <view class="page__bd"></view>
+
+
+  <!--<view class="weui-panel weui-panel_access" bindtap="bindViewTap">
+    <test class="weui-panel__hd">刚刚</view>
+  <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+  <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+</view>-->
+
+<!--<view class="classname">
+  <view class="weui-panel weui-panel_access">
+        <view class="weui-panel__hd">图文组合列表</view>
+        <view class="weui-panel__bd">
+          <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+            <view class="weui-media-box__hd">
+              <img class="weui-media-box__thumb" src="img/wifi1.png" alt="">
+            </view>
+            <view class="weui-media-box__bd">
+              <h4 class="weui-media-box__title">标题一</h4>
+              <p class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</p>
+            </view>
+          </a>
+        </view>
+        <view class="weui-panel__ft">
+          <a href="javascript:void(0);" class="weui-cell weui-cell_access weui-cell_link">
+            <view class="weui-cell__bd">查看更多</view>
+            <span class="weui-cell__ft"></span>
+          </a>    
+        </view>
+      </view>
+  </view>-->
+<view class="usermotto">
+  <text class="user-motto">{{motto}}</text>
+</view>
+
 </view>

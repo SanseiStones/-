@@ -7,12 +7,11 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#97d54e",
+    "navigationBarTextStyle": "#FFFFFF"
   },
   "tabBar": {
     "color": "#dddddd",
-    "selectedColor": "#3CB371",
     "borderStyle": "white",
     "backgroundColor": "balck",
     "list": [

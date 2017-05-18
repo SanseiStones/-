@@ -1,10 +1,13 @@
 //index.js
 //获取应用实例
 var app = getApp()
+
 Page({
   data: {
     motto: 'Hello World',
-    userInfo: {}
+    userInfo: {},
+    inputShowed: true,
+    inputVal: ""
   },
   //事件处理函数
   bindViewTap: function() {
@@ -22,5 +25,26 @@ Page({
         userInfo:userInfo
       })
     })
+  },
+  showInput: function () {
+    this.setData({
+      inputShowed: true
+    });
+  },
+  hideInput: function () {
+    this.setData({
+      inputVal: "",
+      inputShowed: false
+    });
+  },
+  clearInput: function () {
+    this.setData({
+      inputVal: ""
+    });
+  },
+  inputTyping: function (e) {
+    this.setData({
+      inputVal: e.detail.value
+    });
   }
 })
