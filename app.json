@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/main/main",
-    "pages/user/user"
+    "pages/user/user",
+    "pages/index/detail/details"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -17,7 +18,7 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath":"img/wifi1.png",
+        "iconPath": "img/wifi1.png",
         "selectedIconPath": "img/wifi2.png",
         "text": "嘿嘿"
       },

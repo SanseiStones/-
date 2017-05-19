@@ -1,47 +1,82 @@
 <!--index.wxml-->
 <view class="page">
-    <view class="page__hd">
+  <view class="page__hd">
 
-      <view class="weui-search-bar" style="border:none;background-color:#97d54e">
-      
-            <view class="weui-search-bar__form" style="border-radius:20px;border:none;">
-                <view class="weui-search-bar__box">
-                    <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
-                    <input type="text" class="weui-search-bar__input" placeholder="" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
-                    <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
-                        <icon type="clear" size="14"></icon>
-                    </view>
-                </view>
+    <view class="weui-search-bar" style="border:none;background-color:#97d54e">
+
+      <view class="weui-search-bar__form" style="border-radius:20px;border:none;">
+        <view class="weui-search-bar__box">
+          <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+          <input type="text" class="weui-search-bar__input" placeholder="" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
+          <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+            <icon type="clear" size="14"></icon>
+          </view>
+        </view>
+      </view>
+      <view class="weui-search-bar__cancel-btn" bindtap="hideInput">筛选</view>
+    </view>
+    <view class="weui-cells searchbar-result" wx:if="{{inputVal.length > 0}}">
+      <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">
+          <view>实时搜索文本</view>
+        </view>
+      </navigator>
+      <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">
+          <view>实时搜索文本</view>
+        </view>
+      </navigator>
+      <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">
+          <view>实时搜索文本</view>
+        </view>
+      </navigator>
+      <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">
+          <view>实时搜索文本</view>
+        </view>
+      </navigator>
+    </view>
+
+
+  </view>
+  <view class="page__bd">
+    <scroll-view class="" scroll-y="true" bindscrolltolower="scrollower" bindscrolltoupper="scrollupper">
+
+      <!--加载状态-->
+      <view class="weui-mask_transparent" hidden="{{hiddent}}">
+        <view class="weui-toast">
+          <i class="weui-icon_toast {{loadicon}}"></i>
+          <p class="weui-toast__content">{{loadresult}}</p>
+        </view>
+      </view>
+<!--循环数据体-->
+      <view class="111" wx:for="{{items}}" wx:for-item="item" bindtap="bindViewTap">
+        <view class="weui-form-preview" id="{{index}}">
+          <view class="weui-form-preview__hd">
+            <view class="weui-form-preview__item">
+              <view class="weui-form-preview__label">付款金额</view>
+              <view class="weui-form-preview__value_in-hd">¥2400.00</view>
             </view>
-            <view class="weui-search-bar__cancel-btn" bindtap="hideInput">筛选</view>
+          </view>
+          <view class="weui-form-preview__bd">
+            <view class="weui-form-preview__item">
+              <view class="weui-form-preview__label">商品</view>
+              <view class="weui-form-preview__value">{{itme.name}}</view>
+            </view>
+            <view class="weui-form-preview__item">
+              <view class="weui-form-preview__label">标题标题</view>
+              <view class="weui-form-preview__value">{{itme.hope}}</view>
+            </view>
+          </view>
+          <view class="weui-form-preview__ft">
+            <navigator url="../details.wxml?userid={{item.id}}" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">点击查看详情</navigator>
+          </view>
         </view>
-        <view class="weui-cells searchbar-result" wx:if="{{inputVal.length > 0}}">
-            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
-                <view class="weui-cell__bd">
-                    <view>实时搜索文本</view>
-                </view>
-            </navigator>
-            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
-                <view class="weui-cell__bd">
-                    <view>实时搜索文本</view>
-                </view>
-            </navigator>
-            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
-                <view class="weui-cell__bd">
-                    <view>实时搜索文本</view>
-                </view>
-            </navigator>
-            <navigator url="" class="weui-cell" hover-class="weui-cell_active">
-                <view class="weui-cell__bd">
-                    <view>实时搜索文本</view>
-                </view>
-            </navigator>
-        </view>
-   
- 
-</view>
-  <view class="page__bd"></view>
+      </view>
 
+    </scroll-view>
+  </view>
 
   <!--<view class="weui-panel weui-panel_access" bindtap="bindViewTap">
     <test class="weui-panel__hd">刚刚</view>
@@ -49,7 +84,7 @@
   <text class="userinfo-nickname">{{userInfo.nickName}}</text>
 </view>-->
 
-<!--<view class="classname">
+  <!--<view class="classname">
   <view class="weui-panel weui-panel_access">
         <view class="weui-panel__hd">图文组合列表</view>
         <view class="weui-panel__bd">
@@ -71,8 +106,8 @@
         </view>
       </view>
   </view>-->
-<view class="usermotto">
+  <!--<view class="usermotto">
   <text class="user-motto">{{motto}}</text>
-</view>
+</view>-->
 
 </view>
