@@ -18,27 +18,27 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "img/wifi1.png",
-        "selectedIconPath": "img/wifi2.png",
-        "text": "嘿嘿"
+        "iconPath": "img/home-page-off.png",
+        "selectedIconPath": "img/home-page-on.png",
+        "text": "爱奇林"
       },
       {
         "pagePath": "pages/logs/logs",
-        "iconPath": "img/wifi1.png",
-        "selectedIconPath": "img/wifi2.png",
-        "text": "哈哈"
+        "iconPath": "img/build-house-off.png",
+        "selectedIconPath": "img/build-house-on.png",
+        "text": "创爱家"
       },
       {
         "pagePath": "pages/main/main",
-        "iconPath": "img/wifi1.png",
-        "selectedIconPath": "img/wifi2.png",
-        "text": "吼吼"
+        "iconPath": "img/find-house-off.png",
+        "selectedIconPath": "img/find-house-on.png",
+        "text": "寻房"
       },
       {
         "pagePath": "pages/user/user",
-        "iconPath": "img/wifi1.png",
-        "selectedIconPath": "img/wifi2.png",
-        "text": "嗯嗯"
+        "iconPath": "img/my-off.png",
+        "selectedIconPath": "img/my-on.png",
+        "text": "我的"
       }
     ]
   }
