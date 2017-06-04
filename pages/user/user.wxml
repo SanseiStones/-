@@ -13,10 +13,11 @@
           <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">21岁</li>
           <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">单身</li>
           <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">魅力值998</li>
-          <text style="color:black;padding-left:40px;">个人主页</text>
+          <li style="float:right;">
+          <text style="color:black;">个人主页</text>
           <image class="my-img" src="../../img/my/to-personalpage.png"></image>
+          </li>
         </ul>
-
       </p>
       <p style="border-top:1rpx solid #D9D9D9;">
         <image src="../../img/my/sesame.png" style="width:10px;height:10px;"></image><text class="my-realstatus">已芝麻认证</text>

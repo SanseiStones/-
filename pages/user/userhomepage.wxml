@@ -43,9 +43,6 @@
           <li class="weui-uploader__file" style="background-image:url(../../img/timg.jpg);width:80px;height:80px;"></li>
           <li class="weui-uploader__file" style="background-image:url(../../img/timg.jpg);width:80px;height:80px;"></li>
         </ul>
-        <view class="weui-uploader__input-box">
-          <view id="uploaderInput" class="weui-uploader__input"></view>
-        </view>
       </view>
     </view>
     <text class="weui-cell__ft"></text>
@@ -109,9 +106,6 @@
           <li class="weui-uploader__file" style="background-image:url(../../img/timg.jpg);width:80px;height:80px;"></li>
           <li class="weui-uploader__file" style="background-image:url(../../img/timg.jpg);width:80px;height:80px;"></li>
         </ul>
-        <view class="weui-uploader__input-box">
-          <view class="weui-uploader__input"></view>
-        </view>
       </view>
     </view>
     <text class="weui-cell__ft"></text>

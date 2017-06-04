@@ -1,1 +1,21 @@
 /* main.wxss */
+.weui-cell__hd{
+  margin-right:15px;
+}
+p{
+  display: block;
+  margin-top: 5px;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.weui-media-box__hd{
+  margin-right: 10px;
+}
