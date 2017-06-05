@@ -754,7 +754,7 @@ icon {
 }
 .weui-panel {
   background-color: #FFFFFF;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   position: relative;
   overflow: hidden;
 }
@@ -839,7 +839,7 @@ icon {
 }
 .weui-media-box__info {
   /*margin-top: 15px;*/
-  padding-bottom: 5px;
+  /*padding-bottom: 5px;*/
   font-size: 13px;
   color: #CECECE;
   line-height: 1em;
@@ -983,7 +983,7 @@ icon {
 }
 .weui-icon-search_in-box {
   position: absolute;
-  left: 10px;
+  left: 30%;
   top: 7px;
 }
 .weui-search-bar__text {
@@ -997,7 +997,7 @@ icon {
   -webkit-flex: auto;
           flex: auto;
   border-radius: 5px;
-  background: #FFFFFF;
+  background: #d9eba3;
   border: 1rpx solid #E6E6EA;
 }
 .weui-search-bar__box {
@@ -1036,6 +1036,6 @@ icon {
 .weui-search-bar__cancel-btn {
   margin-left: 10px;
   line-height: 28px;
-  color: #09BB07;
+  color: #ffffff;
   white-space: nowrap;
 }

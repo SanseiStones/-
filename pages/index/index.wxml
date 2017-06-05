@@ -1,7 +1,6 @@
 <!--index.wxml-->
 <view class="page">
-  <view class="page__hd">
-
+  <view class="page__hd" style="position:fixed;width:100%;z-index:999;">
     <view class="weui-search-bar" style="border:none;background-color:#97d54e">
 
       <view class="weui-search-bar__form" style="border-radius:20px;border:none;">
@@ -37,9 +36,9 @@
         </view>
       </navigator>
     </view>
-
-
   </view>
+
+
   <view class="page__bd">
     <scroll-view class="" scroll-y="true" bindscrolltolower="scrollower" bindscrolltoupper="scrollupper">
 

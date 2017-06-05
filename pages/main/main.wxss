@@ -4,7 +4,6 @@
 }
 p{
   display: block;
-  margin-top: 5px;
 }
 ul, menu, dir {
     display: block;
@@ -18,4 +17,7 @@ li {
 }
 .weui-media-box__hd{
   margin-right: 10px;
+}
+.weui-cell::before {
+  border-top:none;
 }
