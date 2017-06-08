@@ -6,7 +6,7 @@
         <view class="weui-search-bar__box">
         <view style="margin-top:5px;position:absolute;left:23%;">
           <image src="../../img/search/search.png" style="width:13px;height:13px;margin-right:5px;"></image>
-          <text style="font-size:13px; margin-top:5px;color:#97d54e;">搜索房源，地区和用户</text>
+          <text style="font-size:13px; margin-top:4px;color:#97d54e;">搜索房源，地区和用户</text>
 </view>
 
           <input type="text" class="weui-search-bar__input" placeholder="" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
@@ -15,7 +15,7 @@
           </view>
         </view>
       </view>
-      <view class="weui-search-bar__cancel-btn" bindtap="hideInput">筛选</view>
+      <view class="weui-search-bar__cancel-btn" style="font-size:15px;" bindtap="hideInput">筛选</view>
     </view>
     <view class="weui-cells searchbar-result" wx:if="{{inputVal.length > 0}}">
       <navigator url="" class="weui-cell" hover-class="weui-cell_active">
@@ -49,7 +49,7 @@
       <view class="weui-media-box__hd">
         <image src="../../img/timg.jpg" style="width:78px;height:78px;"></image>
       </view>
-      <navigator class="weui-media-box__bd" style="line-height:1em;" url="userhomepage">
+      <navigator class="weui-media-box__bd" style="line-height:1.2em;" url="userhomepage">
         <p>
           <text style="font-weight:bold;font-size:13px;">我有一个大房子，突然有一天我心血来潮骑他去赶级</text>
         </p>
@@ -70,115 +70,11 @@
   <view class="weui-panel__ft">
     <view class="weui-cell weui-cell_access weui-cell_link">
       <p class="weui-cell__bd">
-        <image src="../../img/timg.jpg" style="width:15px;height:15px;border-radius: 50%;"></image>
-        <text style="font-size:11px">小嘿嘿</text>
+        <image src="../../img/timg.jpg" style="width:15px;height:15px;border-radius: 50%;float:left;"></image>
+        <text style="font-size:11px;float:left;margin-left:5px;">小嘿嘿</text>
       </p>
       <text class="weui-cell__ft" style="font-size:11px;">1秒前</text>
     </view>
   </view>
 </view>
 
-<view class="weui-panel weui-panel_access">
-  <view class="weui-panel__bd">
-    <view class="weui-media-box weui-media-box_appmsg">
-      <view class="weui-media-box__hd">
-        <image src="../../img/timg.jpg" style="width:78px;height:78px;"></image>
-      </view>
-      <navigator class="weui-media-box__bd" url="userhomepage">
-        <p>
-          <text style="font-weight:bold;font-size:13px;">我有一个大房子，突然有一天我心血来潮骑他去赶级</text>
-        </p>
-        <p>
-          <ul class="weui-media-box__info">
-            <li class="weui-media-box__info__meta">北京</li>
-            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">五里坨</li>
-            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">小树林</li>
-            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">人均20000</li>
-          </ul>
-        </p>
-        <p>
-          <text style="font-size:11px;color:red;border:1px solid red">缺1男9女</text>
-        </p>
-      </navigator>
-    </view>
-  </view>
-  <view class="weui-panel__ft">
-    <view class="weui-cell weui-cell_access weui-cell_link">
-      <p class="weui-cell__bd">
-        <image src="../../img/timg.jpg" style="width:15px;height:15px;border-radius: 50%;"></image>
-        <text style="font-size:11px">小嘿嘿</text>
-      </p>
-      <text class="weui-cell__ft" style="font-size:11px;">1秒前</text>
-    </view>
-  </view>
-</view>
-
-<view class="weui-panel weui-panel_access">
-  <view class="weui-panel__bd">
-    <view class="weui-media-box weui-media-box_appmsg">
-      <view class="weui-media-box__hd">
-        <image src="../../img/timg.jpg" style="width:78px;height:78px;"></image>
-      </view>
-      <navigator class="weui-media-box__bd" url="userhomepage">
-        <p>
-          <text style="font-weight:bold;font-size:13px;">我有一个大房子，突然有一天我心血来潮骑他去赶级</text>
-        </p>
-        <p>
-          <ul class="weui-media-box__info">
-            <li class="weui-media-box__info__meta">北京</li>
-            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">五里坨</li>
-            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">小树林</li>
-            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">人均20000</li>
-          </ul>
-        </p>
-        <p>
-          <text style="font-size:11px;color:red;border:1px solid red">缺1男9女</text>
-        </p>
-      </navigator>
-    </view>
-  </view>
-  <view class="weui-panel__ft">
-    <view class="weui-cell weui-cell_access weui-cell_link">
-      <p class="weui-cell__bd">
-        <image src="../../img/timg.jpg" style="width:15px;height:15px; border-radius: 50%;"></image>
-        <text style="font-size:11px;margin-left:5px;">小嘿嘿</text>
-      </p>
-      <text class="weui-cell__ft" style="font-size:11px;">1秒前</text>
-    </view>
-  </view>
-</view>
-
-<view class="weui-panel weui-panel_access">
-  <view class="weui-panel__bd">
-    <view class="weui-media-box weui-media-box_appmsg">
-      <view class="weui-media-box__hd">
-        <image src="../../img/timg.jpg" style="width:78px;height:78px;"></image>
-      </view>
-      <navigator class="weui-media-box__bd" url="userhomepage">
-        <p>
-          <text style="font-weight:bold;font-size:13px;">我有一个大房子，突然有一天我心血来潮骑他去赶级</text>
-        </p>
-        <p>
-          <ul class="weui-media-box__info">
-            <li class="weui-media-box__info__meta">北京</li>
-            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">五里坨</li>
-            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">小树林</li>
-            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">人均20000</li>
-          </ul>
-        </p>
-        <p>
-          <text style="font-size:11px;color:red;border:1px solid red">缺1男9女</text>
-        </p>
-      </navigator>
-    </view>
-  </view>
-  <view class="weui-panel__ft">
-    <view class="weui-cell weui-cell_access weui-cell_link">
-      <p class="weui-cell__bd">
-        <image src="../../img/timg.jpg" style="width:15px;height:15px;"></image>
-        <text style="font-size:11px">小嘿嘿</text>
-      </p>
-      <text class="weui-cell__ft" style="font-size:11px;">1秒前</text>
-    </view>
-  </view>
-</view>

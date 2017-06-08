@@ -21,3 +21,9 @@ li {
 .weui-cell::before {
   border-top:none;
 }
+.weui-cell {
+padding:5px 15px;
+}
+.weui-media-box{
+  padding: 15px 15px 5px 15px;
+}

@@ -1,17 +1,17 @@
 <!--userreal.wxml-->
 
-<view class="weui-cells">
+<view class="weui-cells" style="margin-top:auto;">
   <view class="weui-cell">
     <view class="weui-cell__bd">
    
-      <text style="font-weight:bold">真实姓名</text>
+      <text style="font-weight:bold;font-size:13px;">真实姓名</text>
     </view>
     <input type="text" class="weui-cell__ft">嘿嘿嘿</input>
   </view>
   <view class="weui-cell">
     <view class="weui-cell__bd">
      
-      <text style="font-weight:bold">身份证号码·链接芝麻信用</text>
+      <text style="font-weight:bold;font-size:13px;">身份证号码·链接芝麻信用</text>
     </view>
     <input type="idcard" class="weui-cell__ft">111111000000</input>
   </view>
@@ -40,5 +40,5 @@
 </view>
 <view style="margin:0 10px;">
 <view style="font-size:13px;margin:10px 0;">如果你没收到验证码,可能是以上信息填写错误,请重新输入,或者重新验证.</view>
-<button type="primary">确定</button>
+<button type="primary" style="border-radius:25px;">确定</button>
 </view>

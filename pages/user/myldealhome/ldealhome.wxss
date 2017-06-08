@@ -1,0 +1,15 @@
+/* ldealhome.wxss */
+p{
+  display: block;
+  width:100%;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}

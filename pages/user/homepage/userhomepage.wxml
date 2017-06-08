@@ -1,59 +1,49 @@
-<!--setuserhomepage.wxml-->
+<!--userhomepage.wxml-->
 <view class="weui-cells">
   <view class="weui-cell">
     <view class="weui-cell__hd">
-      <text style="font-weight:bold">基本信息</text>
+      <image src="../../../img/timg.jpg" style="width:78px;height:78px;border-radius:50%;"></image>
     </view>
+    <navigator class="weui-cell__bd" url="../realname/userreal">
+      <p>
+        <text style="font-weight:bold">hanke</text>
+        <image src="../../../img/my/male.png" class="my-img"></image>
+        <view style="float:right;">
+          <image src="../../../img/my/like.png" class="my-img"></image>
+          <text style="margin-left:2px;">20</text>
+        </view>
+      </p>
+      <p>
+        <text>综合魅力值 998 </text>
+        <view style="float:right;">
+          <text style="color:#97d54e;">去实名认证</text>
+          <image class="my-img" src="../../../img/my/to-compile.png"></image>
+        </view>
+      </p>
+    </navigator>
   </view>
-  <navigator class="weui-cell">
-    <view class="weui-cell__bd">
-      <text>昵称</text>
-    </view>
-    <text class="weui-cell__ft">hanke</text>
-  </navigator>
+</view>
+<view class="weui-cells">
   <navigator class="weui-cell">
     <view class="weui-cell__bd">
       <text>签名</text>
     </view>
-    <text class="weui-cell__ft">hanke</text>
+    <text class="weui-cell__ft">哈哈哈</text>
   </navigator>
-  <navigator class="weui-cell">
-    <view class="weui-cell__bd">
-      <text>性别</text>
-    </view>
-    <text class="weui-cell__ft">嘿嘿</text>
-  </navigator>
+
   <navigator class="weui-cell">
     <view class="weui-cell__bd">
       <view class="weui-uploader__hd">
         <p class="weui-uploader__title">我的魅力照</p>
-        <text>(2/4)</text>
       </view>
       <view class="weui-uploader__bd">
         <ul class="weui-uploader__files" id="uploaderFiles">
-          <li class="weui-uploader__file" style="background-image:url(../../img/timg.jpg);width:80px;height:80px;"></li>
-          <li class="weui-uploader__file" style="background-image:url(../../img/timg.jpg);width:80px;height:80px;"></li>
+          <li class="weui-uploader__file" style="background-image:url(../../../img/timg.jpg);width:80px;height:80px;"></li>
+          <li class="weui-uploader__file" style="background-image:url(../../../img/timg.jpg);width:80px;height:80px;"></li>
         </ul>
-         <view class="weui-uploader__input-box">
-          <view class="weui-uploader__input"></view>
-        </view>
       </view>
     </view>
     <text class="weui-cell__ft"></text>
-  </navigator>
-</view>
-
-<view class="weui-cells">
-  <navigator class="weui-cell">
-    <view class="weui-cell__bd">
-      <text style="font-weight:bold">补充信息</text>
-    </view>
-  </navigator>
-  <navigator class="weui-cell">
-    <view class="weui-cell__bd">
-      <text>所在地</text>
-    </view>
-    <text class="weui-cell__ft">帝都</text>
   </navigator>
   <navigator class="weui-cell">
     <view class="weui-cell__bd">
@@ -87,12 +77,6 @@
   </navigator>
   <navigator class="weui-cell">
     <view class="weui-cell__bd">
-      <text>家乡</text>
-    </view>
-    <text class="weui-cell__ft">魔都</text>
-  </navigator>
-  <navigator class="weui-cell">
-    <view class="weui-cell__bd">
       <text>兴趣爱好</text>
     </view>
     <text class="weui-cell__ft">挖掘机 烹饪</text>
@@ -109,13 +93,6 @@
     </view>
     <text class="weui-cell__ft">互相撩妹</text>
   </navigator>
-</view>
-<view class="weui-cells">
-  <navigator class="weui-cell">
-    <view class="weui-cell__bd">
-      <text style="font-weight:bold">理想之家</text>
-    </view>
-  </navigator>
   <navigator class="weui-cell">
     <view class="weui-cell__bd">
       <view class="weui-uploader__hd">
@@ -124,12 +101,9 @@
       </view>
       <view class="weui-uploader__bd">
         <ul class="weui-uploader__files" id="uploaderFiles">
-          <li class="weui-uploader__file" style="background-image:url(../../img/timg.jpg);width:80px;height:80px;"></li>
-          <li class="weui-uploader__file" style="background-image:url(../../img/timg.jpg);width:80px;height:80px;"></li>
+          <li class="weui-uploader__file" style="background-image:url(../../../img/timg.jpg);width:80px;height:80px;"></li>
+          <li class="weui-uploader__file" style="background-image:url(../../../img/timg.jpg);width:80px;height:80px;"></li>
         </ul>
-         <view class="weui-uploader__input-box">
-          <view class="weui-uploader__input"></view>
-        </view>
       </view>
     </view>
     <text class="weui-cell__ft"></text>
@@ -152,20 +126,13 @@
     </view>
     <text class="weui-cell__ft">100万</text>
   </navigator>
-</view>
-<view class="weui-cells">
-  <navigator class="weui-cell">
-    <view class="weui-cell__bd">
-      <text style="font-weight:bold">联系方式</text>
-    </view>
-  </navigator>
   <navigator class="weui-cell">
     <view class="weui-cell__bd">
       <text>电话</text>
     </view>
     <p class="weui-cell__ft">
       <text>13000000000</text>
-      <image src="../../img/my/no-secret.png" class="my-img"></image>
+      <image src="../../../img/my/secret.png" class="my-img"></image>
     </p>
   </navigator>
   <navigator class="weui-cell">
@@ -174,14 +141,14 @@
     </view>
     <p class="weui-cell__ft">
       <text>13000000000</text>
-      <image src="../../img/my/no-secret.png" class="my-img"></image>
+      <image src="../../../img/my/secret.png" class="my-img"></image>
     </p>
   </navigator>
 </view>
 <view class="weui-cells">
-  <navigator class="weui-cell">
+  <navigator class="weui-cell" url="../sethouse/setuserhomepage">
     <view class="weui-cell__bd" style="text-align:center;color:red;">
-      <text>确认修改</text>
+      <text>编辑个人资料</text>
     </view>
     <text class="weui-cell__ft"></text>
   </navigator>

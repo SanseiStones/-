@@ -3,11 +3,12 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/main/main",
-    "pages/user/user",
     "pages/index/detail/details",
-    "pages/user/userhomepage",
-    "pages/user/setuserhomepage",
-    "pages/user/userreal"
+    "pages/user/user",
+    "pages/user/homepage/userhomepage",
+    "pages/user/sethouse/setuserhomepage",
+    "pages/user/realname/userreal",
+    "pages/user/myldealhome/ldealhome"
   ],
   "window": {
     "backgroundTextStyle": "light",
