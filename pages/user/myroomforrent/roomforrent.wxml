@@ -1,0 +1,167 @@
+<!--roomforrent.wxml-->
+<view class="weui-cells" style="margin-top:auto;">
+  <navigator class="weui-cell">
+    <view class="weui-cell__bd">
+      <view class="weui-uploader__hd">
+        <p class="weui-uploader__title">我的魅力照</p>
+        <text>(2/4)</text>
+      </view>
+      <view class="weui-uploader__bd">
+        <ul class="weui-uploader__files" id="uploaderFiles">
+          <li class="weui-uploader__file" style="background-image:url(../../../img/timg.jpg);width:80px;height:80px;"></li>
+          <li class="weui-uploader__file" style="background-image:url(../../../img/timg.jpg);width:80px;height:80px;"></li>
+        </ul>
+        <view class="weui-uploader__input-box">
+          <view class="weui-uploader__input"></view>
+        </view>
+      </view>
+    </view>
+    <text class="weui-cell__ft"></text>
+  </navigator>
+</view>
+
+<view class="weui-cells">
+  <navigator class="weui-cell">
+    <view class="weui-cell__bd">
+      <text style="font-weight:bold">房屋信息</text>
+    </view>
+  </navigator>
+  <navigator class="weui-cell">
+    <view class="weui-cell__bd">
+      <text>出租空间</text>
+    </view>
+    <p class="weui-cell__ft">
+      <text>整套</text>
+    </p>
+  </navigator>
+  <navigator class="weui-cell">
+    <view class="weui-cell__bd">
+      <text>户型</text>
+    </view>
+    <p class="weui-cell__ft">
+      <text>2室2厅</text>
+    </p>
+  </navigator>
+  <navigator class="weui-cell">
+    <view class="weui-cell__bd">
+      <text>楼层</text>
+    </view>
+    <p class="weui-cell__ft">
+      <text>2层,共6层</text>
+    </p>
+  </navigator>
+  <navigator class="weui-cell">
+    <view class="weui-cell__bd">
+      <text>面积</text>
+    </view>
+    <p class="weui-cell__ft">
+      <text>80平方米</text>
+    </p>
+  </navigator>
+  <navigator class="weui-cell">
+    <view class="weui-cell__bd">
+      <text>租金</text>
+    </view>
+    <p class="weui-cell__ft">
+      <text>5800/月</text>
+    </p>
+  </navigator>
+  <navigator class="weui-cell">
+    <view class="weui-cell__bd">
+      <text>付款方式</text>
+    </view>
+    <p class="weui-cell__ft">
+      <text>押一付三</text>
+    </p>
+  </navigator>
+  <navigator class="weui-cell">
+    <view class="weui-cell__bd">
+      <text>能住时间</text>
+    </view>
+    <p class="weui-cell__ft">
+      <text>2017年6月10日-2017年6月11日</text>
+    </p>
+  </navigator>
+  <navigator class="weui-cell">
+    <view class="weui-cell__bd">
+      <text>地址</text>
+    </view>
+    <p class="weui-cell__ft">
+      <text>点击添加</text>
+    </p>
+  </navigator>
+  <navigator class="weui-cell">
+    <view class="weui-cell__bd">
+      <text>临近</text>
+    </view>
+    <p class="weui-cell__ft">
+      <text>昌平线,生命科学园</text>
+    </p>
+  </navigator>
+</view>
+
+
+<view class="weui-cells">
+  <view class="weui-cell">
+    <view class="weui-cell__bd">
+      <text style="font-weight:bold">配置</text>
+    </view>
+  </view>
+
+  <view class="weui-cell">
+    <view class="weui-cell__bd">
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <view class="placeholder">weui</view>
+        </view>
+        <view class="weui-flex__item">
+          <view class="placeholder">weui</view>
+        </view>
+        <view class="weui-flex__item">
+          <view class="placeholder">weui</view>
+        </view>
+        <view class="weui-flex__item">
+          <view class="placeholder">weui</view>
+        </view>
+        <view class="weui-flex__item">
+          <view class="placeholder">weui</view>
+        </view>
+      </view>
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <view class="placeholder">weui</view>
+        </view>
+        <view class="weui-flex__item">
+          <view class="placeholder">weui</view>
+        </view>
+        <view class="weui-flex__item">
+          <view class="placeholder">weui</view>
+        </view>
+        <view class="weui-flex__item">
+          <view class="placeholder">weui</view>
+        </view>
+        <view class="weui-flex__item">
+          <view class="placeholder">weui</view>
+        </view>
+      </view>
+      <view class="weui-flex">
+        <view class="weui-flex__item">
+          <view class="placeholder">weui</view>
+        </view>
+        <view class="weui-flex__item">
+          <view class="placeholder">weui</view>
+        </view>
+        <view class="weui-flex__item">
+          <view class="placeholder">weui</view>
+        </view>
+        <view class="weui-flex__item">
+          <view class="placeholder">weui</view>
+        </view>
+        <view class="weui-flex__item">
+          <view class="placeholder">weui</view>
+        </view>
+      </view>
+
+    </view>
+  </view>
+</view>

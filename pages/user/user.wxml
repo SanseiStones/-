@@ -37,14 +37,14 @@
     </view>
     <text class="weui-cell__ft"></text>
   </navigator>
-  <navigator class="weui-cell">
+  <navigator class="weui-cell" url="mymessage/mymessage">
     <view class="weui-cell__bd">
      <image src="../../img/my/message.png" class="my-img-icon"></image>
       <text>消息</text>
     </view>
     <text class="weui-cell__ft"></text>
   </navigator>
-  <navigator class="weui-cell">
+  <navigator class="weui-cell" url="myroomforrent/roomforrent">
     <view class="weui-cell__bd">
      <image src="../../img/my/rent-house.png" class="my-img-icon"></image>
       <text>有房出租</text>

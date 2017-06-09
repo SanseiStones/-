@@ -1,0 +1,14 @@
+/* roomforrent.wxss */
+p{
+  display:block;
+}
+.placeholder {
+    margin: 5px;
+    padding: 0 10px;
+    height: 1.8em;
+    line-height: 1.8em;
+    text-align: center;
+    color: #97d54e;
+    border:1px solid #97d54e;
+    border-radius:9px;
+}

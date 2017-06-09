@@ -13,3 +13,6 @@ li {
     display: list-item;
     text-align: -webkit-match-parent;
 }
+.weui-media-box{
+  padding: 15px 15px 0 15px;
+}

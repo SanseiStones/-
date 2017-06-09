@@ -8,7 +8,9 @@
     "pages/user/homepage/userhomepage",
     "pages/user/sethouse/setuserhomepage",
     "pages/user/realname/userreal",
-    "pages/user/myldealhome/ldealhome"
+    "pages/user/myldealhome/ldealhome",
+    "pages/user/mymessage/mymessage",
+    "pages/user/myroomforrent/roomforrent"
   ],
   "window": {
     "backgroundTextStyle": "light",

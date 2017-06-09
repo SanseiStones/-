@@ -1,0 +1,7 @@
+/* mymessage.wxss */
+p{
+  display: block;
+}
+.weui-cell__hd{
+  margin-right:15px;
+}

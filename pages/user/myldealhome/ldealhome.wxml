@@ -14,14 +14,76 @@
             <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">人均20000</li>
           </ul>
         </p>
+      </navigator>
+    </view>
+  </view>
+  <view class="weui-panel__ft">
+    <view class="weui-cell weui-cell_access">
+      <view class="weui-cell__bd">
+        <text style="font-size:11px;color:#97d54e;border:1px solid #97d54e;">我创建的</text>
+        <text style="font-size:13px;margin-left:10px;">2017-5-20</text>
+      </view>
+      <view class="weui-cell__ft"></view>
+      <image src="../../../img/home/del.png" style="width:15px;height:15px;float:right;"></image>
+    </view>
+  </view>
+</view>
+
+<view class="weui-panel weui-panel_access">
+  <view class="weui-panel__bd">
+    <view class="weui-media-box weui-media-box_appmsg">
+      <navigator class="weui-media-box__bd" style="line-height:1.8em;" url="userhomepage">
         <p>
-          <text style="font-size:11px;color:red;border:1px solid red;">我创建的</text><text style="font-size:13px;margin-left:10px;" >2017-5-20</text>
-          <image src="../../../img/home/del.png" style="width:15px;height:15px;float:right;"></image>
+          <text style="font-weight:bold;font-size:13px;">我有一个大房子，突然有一天我心血来潮骑他</text>
+        </p>
+        <p>
+          <ul class="weui-media-box__info">
+            <li class="weui-media-box__info__meta">北京</li>
+            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">五里坨</li>
+            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">小树林</li>
+            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">人均20000</li>
+          </ul>
         </p>
       </navigator>
     </view>
   </view>
   <view class="weui-panel__ft">
+    <view class="weui-cell weui-cell_access">
+      <view class="weui-cell__bd">
+        <text style="font-size:11px;color:#97d54e;border:1px solid #97d54e;">我创建的</text>
+        <text style="font-size:13px;margin-left:10px;">2017-5-20</text>
+      </view>
+      <view class="weui-cell__ft"></view>
+      <image src="../../../img/home/del.png" style="width:15px;height:15px;float:right;"></image>
+    </view>
   </view>
 </view>
-
+<view class="weui-panel weui-panel_access">
+  <view class="weui-panel__bd">
+    <view class="weui-media-box weui-media-box_appmsg">
+      <navigator class="weui-media-box__bd" style="line-height:1.8em;" url="userhomepage">
+        <p>
+          <text style="font-weight:bold;font-size:13px;">我有一个大房子，突然有一天我心血来潮骑他</text>
+        </p>
+        <p>
+          <ul class="weui-media-box__info">
+            <li class="weui-media-box__info__meta">北京</li>
+            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">五里坨</li>
+            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">小树林</li>
+            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">人均20000</li>
+          </ul>
+        </p>
+      </navigator>
+    </view>
+  </view>
+  <view class="weui-panel__ft">
+    <view class="weui-cell weui-cell_access">
+      <view class="weui-cell__bd">
+        <text style="font-size:11px;color:#97d54e;border:1px solid #97d54e;">我创建的</text>
+        <text style="font-size:13px;margin-left:10px;">2017-5-20</text>
+      </view>
+      <view class="weui-cell__ft"></view>
+      <image src="../../../img/home/del.png" style="width:15px;height:15px;float:right;"></image>
+    </view>
+  </view>
+</view>
