@@ -1,16 +1,15 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/main/main",
-    "pages/index/detail/details",
-    "pages/user/user",
-    "pages/user/homepage/userhomepage",
-    "pages/user/sethouse/setuserhomepage",
-    "pages/user/realname/userreal",
-    "pages/user/myldealhome/ldealhome",
-    "pages/user/mymessage/mymessage",
-    "pages/user/myroomforrent/roomforrent"
+    "pages/Aiqilin/Aiqilin",
+    "pages/CreateHome/CreateHome",
+    "pages/FindHome/FindHome",
+    "pages/User/User",
+    "pages/User/MyHome/MyHome",
+    "pages/User/MyHome/UserDataEditor/UserDataEditor",
+    "pages/User/MyHome/RealName/RealName",
+    "pages/User/MyLdealHome/MyLdealHome",
+    "pages/User/MyMessage/MyMessage",
+    "pages/User/MyRoomRent/MyRoomRent"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -23,25 +22,25 @@
     "backgroundColor": "balck",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/Aiqilin/Aiqilin",
         "iconPath": "img/public/home-page-off.png",
         "selectedIconPath": "img/public/home-page-on.png",
         "text": "爱奇林"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/CreateHome/CreateHome",
         "iconPath": "img/public/build-house-off.png",
         "selectedIconPath": "img/public/build-house-on.png",
         "text": "创爱家"
       },
       {
-        "pagePath": "pages/main/main",
+        "pagePath": "pages/FindHome/FindHome",
         "iconPath": "img/public/find-house-off.png",
         "selectedIconPath": "img/public/find-house-on.png",
         "text": "寻房"
       },
       {
-        "pagePath": "pages/user/user",
+        "pagePath": "pages/User/User",
         "iconPath": "img/public/my-off.png",
         "selectedIconPath": "img/public/my-on.png",
         "text": "我的"

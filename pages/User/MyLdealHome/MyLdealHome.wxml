@@ -1,8 +1,8 @@
 <!--ldealhome.wxml-->
 <view class="weui-panel weui-panel_access">
-  <view class="weui-panel__bd">
+  <navigator class="weui-panel__bd">
     <view class="weui-media-box weui-media-box_appmsg">
-      <navigator class="weui-media-box__bd" style="line-height:1.8em;" url="userhomepage">
+      <view class="weui-media-box__bd" style="line-height:1.8em;" url="userhomepage">
         <p>
           <text style="font-weight:bold;font-size:13px;">我有一个大房子，突然有一天我心血来潮骑他</text>
         </p>
@@ -14,9 +14,9 @@
             <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">人均20000</li>
           </ul>
         </p>
-      </navigator>
+      </view>
     </view>
-  </view>
+  </navigator>
   <view class="weui-panel__ft">
     <view class="weui-cell weui-cell_access">
       <view class="weui-cell__bd">
@@ -28,6 +28,8 @@
     </view>
   </view>
 </view>
+
+
 
 <view class="weui-panel weui-panel_access">
   <view class="weui-panel__bd">

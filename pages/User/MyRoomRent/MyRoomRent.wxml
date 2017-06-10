@@ -107,7 +107,6 @@
       <text style="font-weight:bold">配置</text>
     </view>
   </view>
-
   <view class="weui-cell">
     <view class="weui-cell__bd">
       <view class="weui-flex">
@@ -165,3 +164,59 @@
     </view>
   </view>
 </view>
+
+<view class="weui-cells">
+  <view class="weui-cell">
+    <view class="weui-cell__bd">
+      <text style="font-weight:bold">补充信息</text>
+    </view>
+  </view>
+  <view class="weui-cell">
+    <view class="weui-cell__bd">
+      <text>标题</text>
+    </view>
+    <input type="text" value="6-30字" class="weui-cell__ft"></input>
+  </view>
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <textarea class="weui-textarea" placeholder="房屋优势" rows="3"></textarea>
+        <view class="weui-textarea-counter"><span>0</span>/200</view>
+      </view>
+    </view>
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <textarea class="weui-textarea" placeholder="出租原因" rows="3"></textarea>
+        <view class="weui-textarea-counter"><span>0</span>/200</view>
+      </view>
+    </view>
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <textarea class="weui-textarea" placeholder="对租客要求" rows="3"></textarea>
+        <view class="weui-textarea-counter"><span>0</span>/200</view>
+      </view>
+    </view>
+</view>
+
+<view class="weui-cells">
+  <view class="weui-cell">
+    <view class="weui-cell__bd">
+      <text style="font-weight:bold">联系方式</text>
+    </view>
+  </view>
+
+   <view class="weui-cell">
+    <view class="weui-cell__bd">
+      <text>手机号</text>
+    </view>
+    <input type="number" value="13000000" class="weui-cell__ft"></input>
+  </view>
+
+   <view class="weui-cell weui-cell_access">
+    <view class="weui-cell__bd">
+      <text>可看对象设置</text>
+    </view>
+    <view class="weui-cell__ft_in-access"></view>
+  </view>
+  </view>
+
+  <button type="primary" style="border-radius:25px;margin-top:15px;background-color:#97d54e">确定并发表</button>

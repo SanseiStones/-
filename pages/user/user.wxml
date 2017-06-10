@@ -5,8 +5,11 @@
     <view class="weui-cell__hd">
       <image src="../../img/timg.jpg" style="width:78px;height:78px;border-radius:50%;"></image>
     </view>
-    <navigator class="weui-cell__bd" style="line-height:1.6em;" url="homepage/userhomepage">
-      <p><text style="font-weight:bold">hanke</text><image src="../../img/my/male.png" class="my-img"></image> </p>
+    <navigator class="weui-cell__bd" style="line-height:1.6em;" url="MyHome/MyHome">
+      <p>
+        <text style="font-weight:bold">hanke</text>
+        <image src="../../img/my/male.png" class="my-img"></image>
+      </p>
       <p>
         <ul class="weui-media-box__info">
           <li class="weui-media-box__info__meta">北京</li>
@@ -14,13 +17,14 @@
           <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">单身</li>
           <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">魅力值998</li>
           <li style="float:right;">
-          <text style="color:black;">个人主页</text>
-          <image class="my-img" src="../../img/my/to-personalpage.png"></image>
+            <text style="color:black;">个人主页</text>
+            <image class="my-img" src="../../img/my/to-personalpage.png"></image>
           </li>
         </ul>
       </p>
       <p style="border-top:1rpx solid #D9D9D9;margin-top:5px;">
-        <image src="../../img/my/sesame.png" style="width:10px;height:10px;"></image><text class="my-realstatus">已芝麻认证</text>
+        <image src="../../img/my/sesame.png" style="width:10px;height:10px;"></image>
+        <text class="my-realstatus">已芝麻认证</text>
         <image src="../../img/my/real-name.png" class="my-img"></image>
         <text class="my-realstatus">已实名</text>
       </p>
@@ -30,30 +34,30 @@
 
 
 <view class="weui-cells">
-  <navigator class="weui-cell" url="myldealhome/ldealhome">
+  <navigator class="weui-cell" url="MyLdealHome/MyLdealHome">
     <view class="weui-cell__bd">
-    <image src="../../img/my/dream-home.png" class="my-img-icon"></image>
+      <image src="../../img/my/dream-home.png" class="my-img-icon"></image>
       <text>我的理想之家</text>
     </view>
     <text class="weui-cell__ft"></text>
   </navigator>
-  <navigator class="weui-cell" url="mymessage/mymessage">
+  <navigator class="weui-cell" url="MyMessage/MyMessage">
     <view class="weui-cell__bd">
-     <image src="../../img/my/message.png" class="my-img-icon"></image>
+      <image src="../../img/my/message.png" class="my-img-icon"></image>
       <text>消息</text>
     </view>
     <text class="weui-cell__ft"></text>
   </navigator>
-  <navigator class="weui-cell" url="myroomforrent/roomforrent">
+  <navigator class="weui-cell" url="MyRoomRent/MyRoomRent">
     <view class="weui-cell__bd">
-     <image src="../../img/my/rent-house.png" class="my-img-icon"></image>
+      <image src="../../img/my/rent-house.png" class="my-img-icon"></image>
       <text>有房出租</text>
     </view>
     <text class="weui-cell__ft"></text>
   </navigator>
   <navigator class="weui-cell">
     <view class="weui-cell__bd">
-     <image src="../../img/my/i-like.png" class="my-img-icon"></image>
+      <image src="../../img/my/i-like.png" class="my-img-icon"></image>
       <text>我喜欢的</text>
     </view>
     <text class="weui-cell__ft"></text>
@@ -61,7 +65,7 @@
 </view>
 
 <view class="weui-cells">
-<navigator class="weui-cell">
+  <navigator class="weui-cell">
     <view class="weui-cell__bd" style="text-align:center;color:red;">
       <text>退出当前账号</text>
     </view>
