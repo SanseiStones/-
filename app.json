@@ -9,7 +9,8 @@
     "pages/User/MyHome/RealName/RealName",
     "pages/User/MyLdealHome/MyLdealHome",
     "pages/User/MyMessage/MyMessage",
-    "pages/User/MyRoomRent/MyRoomRent"
+    "pages/User/MyRoomRent/MyRoomRent",
+    "pages/User/MyLdealHome/LdealHome/LdealHome"
   ],
   "window": {
     "backgroundTextStyle": "light",

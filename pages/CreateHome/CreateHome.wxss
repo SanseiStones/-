@@ -1,8 +1,46 @@
 .log-list {
   display: flex;
   flex-direction: column;
-  padding: 40rpx;
+  background-color: #ffffff;
 }
-.log-item {
-  margin: 10rpx;
+.Cre-describe {
+  height: 5em;
+}
+
+.Cre-chum{
+  height: 5em;
+}
+
+.Cre-homeimg{
+  margin-bottom: 15px;
+}
+
+.Cre-btn{
+  margin-top: 0;
+}
+
+.org_box{
+    height:3em;
+    line-height:3em; 
+    padding-left:1em;
+    padding-right: 1em;
+    background:#D6FEBE; 
+    position:relative; 
+    top: -4em;
+    left: -5.3em;
+    font-size: 0.7em;
+    border-radius: 10%;
+}
+.org_bot_cor{
+    width:0; 
+    height:0; 
+    font-size:0; 
+    border-width:15px; 
+    border-style:solid; 
+    border-color:#D6FEBE transparent transparent; 
+    _border-color:#D6FEBE white white; 
+    overflow:hidden; 
+    position:absolute; 
+    left:20px; 
+    bottom:-30px;
 }

@@ -1,6 +1,122 @@
 <!--logs.wxml-->
 <view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log" wx:key="*this">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+  <form bindsubmit="formSubmit" bindreset="formReset">
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <input class="weui-cell__bd" type="text"   value="" placeholder="给你的理想之家取个名字" />
+      </view>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <input class="weui-cell__bd" type="text"  value="" placeholder="写下你的创家宣言" />
+      </view>
+    </view>
+
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <textarea class="weui-textarea Cre-describe"  value="" placeholder="请添加文字描述" rows="3"></textarea>
+        <view class="weui-textarea-counter"></view>
+      </view>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <text>理想室友</text>
+      </view>
+      <input class="weui-cell__ft" type="text"  value="" placeholder="3男3女，21岁" />
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <view class="weui-cell__bd">
+          <text>希望室友是什么样的？</text>
+        </view>
+        <textarea class="weui-textarea Cre-chum"></textarea>
+      </view>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <p class="weui-textarea Cre-homeimg">添加爱家创想图</p>
+        <view class="weui-uploader__input-box">
+          <view class="weui-uploader__input"></view>
+        </view>
+      </view>
+      <view class="org_box">
+        <span class="org_bot_cor"></span> 选择一张作为封面哦~
+      </view>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <text>是否有房</text>
+      </view>
+      <input class="weui-cell__ft" type="text"   value="" placeholder="是" />
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <text>坐落地址</text>
+      </view>
+      <input class="weui-cell__ft" type="text"  value="" placeholder="点击添加" />
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <text>临近</text>
+      </view>
+      <input class="weui-cell__ft" type="text"  value="" placeholder="回龙观地铁站" />
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <text>人均预算</text>
+      </view>
+      <input class="weui-cell__ft" type="text"  value="" placeholder="2100/月" />
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <text>总价</text>
+      </view>
+      <input class="weui-cell__ft" type="text"  value="" placeholder="8000/月" />
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <text>入住时间</text>
+      </view>
+      <input class="weui-cell__ft" type="text"  value="" placeholder="2017年6月1日-2017年9月1日" maxlength="-1" />
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <textarea class="weui-textarea"  value="" placeholder="做一下自我介绍吧" rows="2"></textarea>
+        <view class="weui-textarea-counter">
+          <view class="weui-uploader__input-box">
+            <view class="weui-uploader__input"></view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <input class="weui-cell__bd" type="number"  value="" placeholder="请输入手机号（只对符合室友标准的开放）" />
+      </view>
+    </view>
+
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <input class="weui-cell__bd" type="text"  value="" placeholder="请输入微信号（只对符合室友标准的开放）" />
+      </view>
+    </view>
+
+    <view class="btn-area">
+      <button type="primary" style="border-radius:25px;margin-top:2px;background-color:#97d54e">确定并提交</button>
+    </view>
+  </form>
 </view>

@@ -1,0 +1,99 @@
+<!--LdealHome.wxml-->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" mode="scaleToFill" style="width:100%;height:180px;" />
+    </swiper-item>
+  </block>
+</swiper>
+
+
+<view class="weui-cells" style="margin-top:auto;">
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <image src="../../../../img/timg.jpg" style="width:3rem;height:3rem;border-radius:50%;"></image>
+    </view>
+    <navigator class="weui-cell__bd" style="line-height:1.6em;" url="MyHome/MyHome">
+      <p>
+        <text style="font-weight:bold">hanke</text>
+        <image src="../../../../img/my/male.png" class="my-img"></image>
+         <text style="font-size:11px;color:#97d54e;border:1px solid #97d54e;margin-left:60%;">已找到房</text>
+      </p>
+      <p style="margin-top:0.5rem;">
+        <ul class="weui-media-box__info">
+          <li class="weui-media-box__info__meta">北京</li>
+          <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">21岁</li>
+          <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">单身</li>
+          <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">魅力值998</li>
+         
+        </ul>
+      </p>
+    </navigator>
+  </view>
+
+  <view class="weui-cell">
+  <view class="weui-cell__bd">
+  <view style="font-weight:bold">获取理想之家得标题</view>
+  <view>我的创想:<text>hshahhahsahashahshshahsh</text></view>
+  <view>布局:<text>hshahhahsahashahshshahsh</text></view>
+  <view>理想舍友:<text>hshahhahsahashahshshahsh</text></view>
+  <view>地址:<text>hshahhahsahashahshshahsh</text></view>
+  <view>临近:<text>hshahhahsahashahshshahsh</text></view>
+  <view>总价:<text>hshahhahsahashahshshahsh</text></view>
+  <view>人均:<text>hshahhahsahashahshshahsh</text></view>
+  <view>入住时间:<text>hshahhahsahashahshshahsh</text></view>
+  </view>
+  </view>
+   <navigator class="weui-cell">
+    <view class="weui-cell__bd">
+      <view class="weui-uploader__hd">
+        <view class="weui-uploader__title">自我介绍：<text>我就问你我牛不牛</text></view>
+      </view>
+      <view class="weui-uploader__bd">
+        <ul class="weui-uploader__files" id="uploaderFiles">
+          <li class="weui-uploader__file" style="background-image:url(../../../../img/timg.jpg);width:80px;height:80px;"></li>
+          <li class="weui-uploader__file" style="background-image:url(../../../../img/timg.jpg);width:80px;height:80px;"></li>
+        </ul>
+      </view>
+    </view>
+    <text class="weui-cell__ft"></text>
+  </navigator>
+
+    <view class="weui-cell">
+    <view class="weui-cell__bd">
+      <view class="weui-uploader__hd">
+        <view class="weui-uploader__title">已入选室友</view>
+        <text>管理室友</text>
+      </view>
+      <view class="weui-uploader__bd">
+        <ul class="weui-uploader__files" id="uploaderFiles">
+          <li class="weui-uploader__file" style="background-image:url(../../../../img/timg.jpg);width:80px;height:80px;"></li>
+          <li class="weui-uploader__file" style="background-image:url(../../../../img/timg.jpg);width:80px;height:80px;"></li>
+        </ul>
+      </view>
+    </view>
+    <text class="weui-cell__ft"></text>
+  </view>
+
+  <view class="weui-tab">
+            <view class="weui-navbar">
+                <view id="nav_like" bindtap="navClick" class="weui-navbar__item ">
+                <image src="{{lh_lv_image}}" class="my-img"></image>
+                   <text>{{lh_lvoe}}</text> 
+                </view>
+                <view id="nav_dz" bindtap="navClick" class="weui-navbar__item {{lh_nav_dz}}"><image src="{{lh_dz_image}}" class="my-img"></image>
+                    <text>点子</text>
+                </view>
+                <view id="nav_pl" bindtap="navClick" class="weui-navbar__item {{lh_nav_pl}}">  <image src="{{lh_pl_image}}" class="my-img"></image>
+                  <text>评论</text>
+                </view>
+                <view id="nav_bj" bindtap="navClick" class="weui-navbar__item {{lh_nav_bj}}">  <image src="{{lh_bj_image}}" class="my-img"></image>
+                    <text>编辑</text>
+                </view>
+            </view>
+            <view class="weui-tab__panel">
+           <view>{{test_text}}</view>
+            </view>
+        </view>
+</view>
