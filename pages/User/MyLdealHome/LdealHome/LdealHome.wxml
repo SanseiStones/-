@@ -35,14 +35,14 @@
   <view class="weui-cell">
   <view class="weui-cell__bd">
   <view style="font-weight:bold">获取理想之家得标题</view>
-  <view>我的创想:<text>hshahhahsahashahshshahsh</text></view>
-  <view>布局:<text>hshahhahsahashahshshahsh</text></view>
-  <view>理想舍友:<text>hshahhahsahashahshshahsh</text></view>
-  <view>地址:<text>hshahhahsahashahshshahsh</text></view>
-  <view>临近:<text>hshahhahsahashahshshahsh</text></view>
-  <view>总价:<text>hshahhahsahashahshshahsh</text></view>
-  <view>人均:<text>hshahhahsahashahshshahsh</text></view>
-  <view>入住时间:<text>hshahhahsahashahshshahsh</text></view>
+  <view class="lh_view">我的创想:<text>hshahhahsahashahshshahsh</text></view>
+  <view class="lh_view">布局:<text>hshahhahsahashahshshahsh</text></view>
+  <view class="lh_view">理想舍友:<text>hshahhahsahashahshshahsh</text></view>
+  <view class="lh_view">地址:<text>hshahhahsahashahshshahsh</text></view>
+  <view class="lh_view">临近:<text>hshahhahsahashahshshahsh</text></view>
+  <view class="lh_view">总价:<text>hshahhahsahashahshshahsh</text></view>
+  <view class="lh_view">人均:<text>hshahhahsahashahshshahsh</text></view>
+  <view class="lh_view">入住时间:<text>hshahhahsahashahshshahsh</text></view>
   </view>
   </view>
    <navigator class="weui-cell">

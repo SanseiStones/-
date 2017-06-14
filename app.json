@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/Aiqilin/Aiqilin",
+    "pages/Aiqilin/Screen/Screen",
     "pages/CreateHome/CreateHome",
     "pages/FindHome/FindHome",
     "pages/User/User",

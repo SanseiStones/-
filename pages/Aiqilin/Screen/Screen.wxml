@@ -1,0 +1,338 @@
+<!--Screen.wxml-->
+<view class="container log-list">
+
+  <view class="weui-cells Scr-citypostion">
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <view class="Scr-location">
+          <image src="../../../img/screen/location.png"></image>
+        </view>
+        <view class="Scr-city">
+          <text>已定位城市：</text>
+          <text>北京</text>
+        </view>
+      </view>
+      <view class="weui-cell__ft">
+        <image src="../../../img/screen/change.png" class=" Scr-change"></image>
+        <text>更改城市</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="Scr-sort">
+    <view class="weui-cell">
+      <view class="weui-cell__bd Scr-fontmagin">
+        <text style="font-weight:bold">排序</text>
+      </view>
+    </view>
+
+    <view class="sort-content">
+      <view class="pub-content">
+        <view class="placeholder choose">最新</view>
+      </view>
+      <view class="pub-content">
+        <view class="placeholder">热门</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="Scr-area">
+    <view class="weui-cell">
+      <view class="weui-cell__bd Scr-fontmagin">
+        <text style="font-weight:bold">区域</text>
+      </view>
+    </view>
+
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="placeholder choose">不限</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">海淀</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">朝阳</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">昌平</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">西城</view>
+      </view>
+    </view>
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="placeholder">东城</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">通州</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">石景山</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">顺义</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">丰台</view>
+      </view>
+    </view>
+    <view class="area-content">
+      <view class="pub-content">
+        <view class="placeholder">房山</view>
+      </view>
+      <view class="pub-content">
+        <view class="placeholder">怀柔</view>
+      </view>
+      <view class="pub-content">
+        <view class="placeholder">大兴</view>
+      </view>
+      <view class="pub-content">
+        <view class="placeholder">门头沟</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="Scr-metro">
+    <view class="weui-cell">
+      <view class="weui-cell__bd Scr-fontmagin">
+        <text style="font-weight:bold">地铁</text>
+      </view>
+    </view>
+
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="placeholder choose">不限</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">1号线</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">2号线</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">4号线</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">5号线</view>
+      </view>
+    </view>
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="placeholder">6号线</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">7号线</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">8号线</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">9号线</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">10号线</view>
+      </view>
+    </view>
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="placeholder">11号线</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">12号线</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">13号线</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">14号线</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">15号线</view>
+      </view>
+    </view>
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="placeholder">16号线</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">亦庄线</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">八通线</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">房山线</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">昌平线</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="Scr-charm">
+    <view class="weui-cell">
+      <view class="weui-cell__bd Scr-fontmagin">
+        <text style="font-weight:bold">魅力值</text>
+      </view>
+    </view>
+
+    <view class="charm-content">
+      <view class="pub-content">
+        <view class="placeholder choose">不限</view>
+      </view>
+      <view class="pub-content">
+        <view class="placeholder">≥700</view>
+      </view>
+      <view class="pub-content">
+        <view class="placeholder">≥800</view>
+      </view>
+      <view class="pub-content">
+        <view class="placeholder">≥900</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="Scr-budget">
+    <view class="weui-cell">
+      <view class="weui-cell__bd Scr-fontmagin">
+        <text style="font-weight:bold">人均预算</text>
+      </view>
+    </view>
+
+    <view class="weui-flex budget-content">
+      <view class="weui-flex__item">
+        <view class="placeholder choose">不限</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">≤1000</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">1000-2000</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">2000-3000</view>
+      </view>
+    </view>
+    <view class="budget-content">
+      <view class="pub-content sp-pubcontent">
+        <view class="placeholder">3000-4000</view>
+      </view>
+      <view class="pub-content sp-pubcontent">
+        <view class="placeholder">4000-5000</view>
+      </view>
+      <view class="pub-content sp-pubcontent">
+        <view class="placeholder">≥5000</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="Scr-interest">
+    <view class="weui-cell">
+      <view class="weui-cell__bd Scr-fontmagin">
+        <text style="font-weight:bold">兴趣</text>
+      </view>
+    </view>
+
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="placeholder choose">不限</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">影视</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">读书</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">音乐</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">人文</view>
+      </view>
+    </view>
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="placeholder">艺术</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">旅行</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">时尚</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">美食</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">生活</view>
+      </view>
+    </view>
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="placeholder">画画</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">摄影</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">编程</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">发明</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">创作</view>
+      </view>
+    </view>
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="placeholder">自然</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">手作</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">建筑</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">二次元</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">科技</view>
+      </view>
+    </view>
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="placeholder">萌宠</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">长知识</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">情感</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">成长</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">八卦</view>
+      </view>
+    </view> 
+    <view class="interest-content">
+      <view class="pub-content">
+        <view class="placeholder">理财</view>
+      </view>
+      <view class="pub-content sp-pubcontent">
+        <view class="placeholder">运动健身</view>
+      </view>
+      <view class="pub-content">
+        <view class="placeholder">穿搭</view>
+      </view>
+    </view>       
+  </view>
+
+  <view class="btn-area">
+    <button type="primary" style="border-radius:25px;margin-top:25px;background-color:#97d54e">确定</button>
+  </view>
+</view>

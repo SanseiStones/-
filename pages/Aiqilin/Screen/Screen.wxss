@@ -1,0 +1,67 @@
+/* Screen.wxss */
+
+.log-list {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  font-size: 13px;
+}
+
+.Scr-citypostion {
+  margin-top: 0;
+}
+
+.Scr-location image {
+  width: 0.8rem;
+  height: 0.8rem;
+  float: left;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.Scr-city {
+  float: left;
+}
+
+.Scr-change {
+  width: 0.7rem;
+  height: 0.7rem;
+  margin-right: 5px;
+}
+
+.Scr-fontmagin {
+  margin-left: 0.3rem;
+  display: block;
+}
+
+
+.placeholder {
+  margin: 5px;
+  padding: 0 5px;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  text-align: center;
+  color: #666;
+  border: 1px solid #7f7f7f;
+  border-radius: 9px;
+}
+
+.choose {
+  color: #4e9000;
+  border: 1px solid #4e9000;
+  border-radius: 9px;
+  background-color: #baf971;
+}
+
+.Scr-budget .placeholder {
+  padding: 0 2px;  
+}
+
+.pub-content {
+  width: 4rem;
+  float: left;
+}
+
+.sp-pubcontent{
+  width: 6rem;
+}

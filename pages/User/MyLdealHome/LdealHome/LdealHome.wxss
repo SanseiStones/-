@@ -23,3 +23,6 @@ li {
 .weui-navbar__item {
   font-size: 13px;
 }
+.lh_view{
+  margin-top: 10px;
+}

@@ -12,7 +12,9 @@
           </view>
         </view>
       </view>
-      <view class="weui-search-bar__cancel-btn" bindtap="hideInput">筛选</view>
+      <navigator url="Screen/Screen" >
+        <view class="weui-search-bar__cancel-btn" bindtap="hideInput">筛选</view>
+      </navigator>
     </view>
     <view class="weui-cells searchbar-result" wx:if="{{inputVal.length > 0}}">
       <navigator url="" class="weui-cell" hover-class="weui-cell_active">
@@ -49,7 +51,7 @@
           <p class="weui-toast__content">{{loadresult}}</p>
         </view>
       </view>
-<!--循环数据体-->
+      <!--循环数据体-->
       <view class="111" wx:for="{{items}}" wx:for-item="item" bindtap="bindViewTap">
         <view class="weui-form-preview" id="{{index}}">
           <view class="weui-form-preview__hd">
