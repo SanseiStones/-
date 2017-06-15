@@ -1,0 +1,45 @@
+/* CreateSuccess.wxss */
+
+.CreateSuccess {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.CreSuc-img {
+  width: 10em;
+  height: 10em;
+  margin-top: 3em;
+  margin-left: 6rem;
+  margin-bottom: 3.5em;
+}
+
+.CreSuc-img image {
+  width: 10em;
+  height: 10em;
+}
+
+.CreSuc-sp{
+  text-align: center;
+  font-size: 2.1rem;
+  font-weight: bold;
+  margin-left: 1em;
+  margin-bottom: 0.9rem;
+}
+
+.CreSuc-p{
+  text-align: center;
+  font-size: 0.9rem;
+  margin-left: 1em;
+  margin-bottom: 5.5em;
+}
+
+.btn-share button{
+  border: 1px solid #97D54E;
+  background-color: #ffffff;
+  color: #97D54E;
+}
+
+.btn-return{
+  color: #ffffff;
+}

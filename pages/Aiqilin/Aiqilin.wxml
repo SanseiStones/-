@@ -61,54 +61,74 @@
             </view>
           </view>
           <view class="weui-form-preview__bd">
-            <view class="weui-form-preview__item">
-              <view class="weui-form-preview__label">商品</view>
-              <view class="weui-form-preview__value">{{itme.name}}</view>
-            </view>
-            <view class="weui-form-preview__item">
-              <view class="weui-form-preview__label">标题标题</view>
-              <view class="weui-form-preview__value">{{itme.hope}}</view>
-            </view>
+             <navigator class="weui-cell__bd" style="line-height:1.6em;" url="MyHome/MyHome">
+      <p>
+        <text style="font-weight:bold">hanke</text>
+        <image src="../../img/my/male.png" class="my-img"></image>
+      </p>
+      <p>
+        <ul class="weui-media-box__info">
+          <li class="weui-media-box__info__meta">北京</li>
+          <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">21岁</li>
+          <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">单身</li>
+          <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">魅力值998</li>
+          <li style="float:right;">
+            <text style="color:black;">个人主页</text>
+            <image class="my-img" src="../../img/my/to-personalpage.png"></image>
+          </li>
+        </ul>
+      </p>
+      <p style="border-top:1rpx solid #D9D9D9;margin-top:5px;">
+        <image src="../../img/my/sesame.png" style="width:10px;height:10px;"></image>
+        <text class="my-realstatus">已芝麻认证</text>
+        <image src="../../img/my/real-name.png" class="my-img"></image>
+        <text class="my-realstatus">已实名</text>
+      </p>
+    </navigator>
           </view>
           <view class="weui-form-preview__ft">
             <navigator url="../details.wxml?userid={{item.id}}" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">点击查看详情</navigator>
           </view>
         </view>
+<!--例子-->
+      
       </view>
 
     </scroll-view>
   </view>
 
-  <!--<view class="weui-panel weui-panel_access" bindtap="bindViewTap">
-    <test class="weui-panel__hd">刚刚</view>
-  <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-  <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-</view>-->
 
-  <!--<view class="classname">
-  <view class="weui-panel weui-panel_access">
-        <view class="weui-panel__hd">图文组合列表</view>
-        <view class="weui-panel__bd">
-          <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
-            <view class="weui-media-box__hd">
-              <img class="weui-media-box__thumb" src="img/wifi1.png" alt="">
-            </view>
-            <view class="weui-media-box__bd">
-              <h4 class="weui-media-box__title">标题一</h4>
-              <p class="weui-media-box__desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</p>
-            </view>
-          </a>
-        </view>
-        <view class="weui-panel__ft">
-          <a href="javascript:void(0);" class="weui-cell weui-cell_access weui-cell_link">
-            <view class="weui-cell__bd">查看更多</view>
-            <span class="weui-cell__ft"></span>
-          </a>    
-        </view>
-      </view>
-  </view>-->
-  <!--<view class="usermotto">
-  <text class="user-motto">{{motto}}</text>
-</view>-->
 
+</view>
+
+  <view class="weui-cells">
+  <view class="weui-cell">
+    <view class="weui-cell__hd">
+      <image src="../../img/timg.jpg" style="width:78px;height:78px;border-radius:50%;"></image>
+    </view>
+    <navigator class="weui-cell__bd" style="line-height:1.6em;" url="MyHome/MyHome">
+      <p>
+        <text style="font-weight:bold">hanke</text>
+        <image src="../../img/my/male.png" class="my-img"></image>
+      </p>
+      <p>
+        <ul class="weui-media-box__info">
+          <li class="weui-media-box__info__meta">北京</li>
+          <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">21岁</li>
+          <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">单身</li>
+          <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">魅力值998</li>
+          <li style="float:right;">
+            <text style="color:black;">个人主页</text>
+            <image class="my-img" src="../../img/my/to-personalpage.png"></image>
+          </li>
+        </ul>
+      </p>
+      <p style="border-top:1rpx solid #D9D9D9;margin-top:5px;">
+        <image src="../../img/my/sesame.png" style="width:10px;height:10px;"></image>
+        <text class="my-realstatus">已芝麻认证</text>
+        <image src="../../img/my/real-name.png" class="my-img"></image>
+        <text class="my-realstatus">已实名</text>
+      </p>
+    </navigator>
+  </view>
 </view>

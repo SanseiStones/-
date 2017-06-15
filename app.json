@@ -11,7 +11,8 @@
     "pages/User/MyLdealHome/MyLdealHome",
     "pages/User/MyMessage/MyMessage",
     "pages/User/MyRoomRent/MyRoomRent",
-    "pages/User/MyLdealHome/LdealHome/LdealHome"
+    "pages/User/MyLdealHome/LdealHome/LdealHome",
+    "pages/CreateHome/CreateSuccess/CreateSuccess"
   ],
   "window": {
     "backgroundTextStyle": "light",

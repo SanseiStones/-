@@ -1,0 +1,24 @@
+<!--CreateSuccess.wxml-->
+<view class="CreateSuccess">
+  <view class="CreSuc-img">
+    <image src="../../../img/success.png"></image>
+  </view>
+
+
+  <view class="CreSuc-sp">
+    <span>创家成功！</span>
+  </view>
+
+  <view class="CreSuc-p">
+    <p>快分享让亲朋好友为你助力!</p>
+  </view>
+
+  <view class="btn-share">
+    <button type="primary" open-type="share" style="border-radius:25px;margin-top:2px;background-color:#ffffff">一键分享给好友</button>
+  </view>
+ 
+    <view class="btn-return" bindtap="tBar" >
+      <button type="primary" style="border-radius:25px;margin-top:5px;background-color:#97d54e">返回首页</button>
+    </view>
+
+</view>
