@@ -1,0 +1,25 @@
+<!--Login.wxml-->
+<view style="width:100%;height:100%;background-image:'/img/background.jpg'">
+<view style="text-alrign:center;">
+<image src="/img/wechat.png" style="width:70%;height:2rem;"></image>
+</view>
+<view class="weui-cells weui-cells_form">
+<view class="weui-cell weui-cell_vcode">
+                <view class="weui-cell__hd">
+                    <label class="weui-label">手机号</label>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" type="tel" placeholder="请输入手机号"/>
+                </view>
+                <view class="weui-cell__ft">
+                    <button class="weui-vcode-btn">获取验证码</button>
+                </view>
+            </view>
+</view>
+<view class="weui-cell">
+                <view class="weui-cell__hd"><label class="weui-label">qq</label></view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" type="number" pattern="[0-9]*"/>
+                </view>
+            </view>
+</view>

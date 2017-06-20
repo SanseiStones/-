@@ -12,7 +12,7 @@
           </view>
         </view>
       </view>
-      <navigator url="Screen/Screen" >
+      <navigator url="Screen/Screen">
         <view class="weui-search-bar__cancel-btn" bindtap="hideInput">筛选</view>
       </navigator>
     </view>
@@ -39,47 +39,67 @@
       </navigator>
     </view>
   </view>
-
-
-  <view class="page__bd">
-    <scroll-view class="" scroll-y="true" bindscrolltolower="scrollower" bindscrolltoupper="scrollupper">
-
-      
-    </scroll-view>
-  </view>
-
-
-
 </view>
 
 
 <view class="weui-panel weui-panel_access">
-<view class="weui-panel__hd">
- <image style="width:100%;height:8rem;" src="../../../img/11111.jpg"></image>
- <view class="img-text-background"><text style="font-weight:bold;color:#ffffff;font-size:1.3rem;">五人突击小分队</text></view>
-</view>
+  <view class="weui-panel__hd">
+    <image style="width:100%;height:8rem;" src="../../../img/11111.jpg"></image>
+    <view class="img-text-background">
+      <text style="font-weight:bold;color:#ffffff;font-size:1.3rem;">五人突击小分队</text>
+    </view>
+  </view>
   <view class="weui-panel__bd weui-cell">
-    
-      
-      <navigator class="weui-cell__bd" style="line-height:1.2em;" url="userhomepage">
-
-        <p>
-         <text style="font-weight:bold">hanke</text>
+    <navigator class="weui-cell__bd" style="line-height:1.2em;" url="userhomepage">
+      <p>
+        <text style="font-weight:bold">hanke</text>
         <image src="../../../img/my/male.png" class="my-img"></image>
         <text style="font-size:11px;color:#97d54e;border:1px solid #97d54e;margin-left:77%;">实名</text>
-        </p>
+      </p>
+      <p>
+        <ul class="weui-media-box__info">
+          <li class="weui-media-box__info__meta">北京</li>
+          <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">五里坨</li>
+          <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">小树林</li>
+          <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">人均20000</li>
+        </ul>
+      </p>
+    </navigator>
+  </view>
+  <view class="weui-panel__ft">
+    <view class="weui-cell weui-cell_access weui-cell_link">
+      <p class="weui-cell__bd">
+        <image src="/img/Aiqilin/location.png" style="width:15px;height:15px;border-radius: 50%;float:left;"></image>
+        <text style="font-size:11px;float:left;margin-left:5px;">西三旗</text>
+      </p>
+      <text class="weui-cell__ft" style="font-size:11px;">1秒前</text>
+    </view>
+  </view>
+</view>
 
-        <p>
-          <ul class="weui-media-box__info">
-            <li class="weui-media-box__info__meta">北京</li>
-            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">五里坨</li>
-            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">小树林</li>
-            <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">人均20000</li>
-          </ul>
-        </p>
-
-      </navigator>
- 
+<view class="weui-panel weui-panel_access">
+  <view class="weui-panel__hd">
+    <image style="width:100%;height:8rem;" src="../../../img/11111.jpg"></image>
+    <view class="img-text-background">
+      <text style="font-weight:bold;color:#ffffff;font-size:1.3rem;">五人突击小分队</text>
+    </view>
+  </view>
+  <view class="weui-panel__bd weui-cell">
+    <navigator class="weui-cell__bd" style="line-height:1.2em;" url="userhomepage">
+      <p>
+        <text style="font-weight:bold">hanke</text>
+        <image src="../../../img/my/male.png" class="my-img"></image>
+        <text style="font-size:11px;color:#97d54e;border:1px solid #97d54e;margin-left:77%;">实名</text>
+      </p>
+      <p>
+        <ul class="weui-media-box__info">
+          <li class="weui-media-box__info__meta">北京</li>
+          <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">五里坨</li>
+          <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">小树林</li>
+          <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">人均20000</li>
+        </ul>
+      </p>
+    </navigator>
   </view>
   <view class="weui-panel__ft">
     <view class="weui-cell weui-cell_access weui-cell_link">
